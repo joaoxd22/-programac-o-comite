@@ -7,5 +7,8 @@ meses = idade * 12
 print("sua idade em messes é -> ", meses)
 print ("sua idade em aproximadamente 365 dias é -> ", meses * 365)
 numero = int(input("me de um numero ")) 
-print (numero * 3)
-media = numero, numero, numero / 3
+nota1 = float(input("informe a primeira nota -> "))
+nota2 = float(input("informe a segunda nota -> "))
+nota3 = float(input("informe a terceira nota -> "))
+
+print("A media é -> ", (nota1 + nota2 + nota3) / 3)
