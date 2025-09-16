@@ -11,7 +11,7 @@ elif operacao == "/":
     if numero_2 == 0:
         print("uma das condições é 0")
     else:
-        resultado = numero_1 / numero_2
+        resultado = numero_1 / numero_20
     print("A DIVISÃO É", resultado)
 else:
     print("OPERÇÃO INVALIDA ):")
