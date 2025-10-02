@@ -7,4 +7,4 @@ while numero != 0:
     if numero > maior_numero:
         maior_numero = numero
 
-print(f" o maior numero e {maior_numero}") 
+print(f" o maior numero e {maior_numero}")  
