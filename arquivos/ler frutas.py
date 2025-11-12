@@ -1,12 +1,19 @@
-try:
-    with open("arquivo_frutas.txt","r") as arquivo:
-     frutas = arquivo.readlines()
+def gera_lista(arquivo):
+   lista = []
+   try:
+      with open(arquivo) as arq:
+         for linha in arq:
+            lista.append(linha.strip())
+      return lista
+   except FileNotFoundError:
+      print("ARQUIVO NÃO ENCONTRADO")
 
-    fruta = [frutas.strip()for fruta in frutas]
 
-    print(frutas)
+def main():
+   lista = []
+   arquivo = "frutas.txt"
+   lista = gera_lista(arquivo)
+   print(lista)
 
-except FileNotFoundError:
-   print("o arquivo nao foi encontrado :( )")
-except Exception as erro:
-   print(f"ocorreu um erro{erro}")
+
+main()
