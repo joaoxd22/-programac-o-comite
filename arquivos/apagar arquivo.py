@@ -11,4 +11,4 @@ def main():
   arquivo = input("digite o nome de um arquivo que deseja apagar -> ")
   apagar_arquivo(arquivo)
 
-main()
+main()  
