@@ -1,5 +1,5 @@
 import json
-def jason():
+def json():
     dados = {"nome": "joao", "idade": 17}
     with open ("dados.json", "w") as f:
-        json.dump(dados, f, indent = 4)
+        json.dump(dados, f, indent = 4) 
