@@ -1,0 +1,20 @@
+def processar_valor(valor):
+    try:
+        r = 10 / float(valor)
+        return f"Resultado: {r}"
+    except ValueError:
+        return "Erro: valor inválido (ValueError)."
+    except TypeError:
+        return "Erro: tipo inválido (TypeError)."
+
+def main():
+    entrada = input("Digite um valor: ")
+    resultado = processar_valor(entrada)
+
+    with open("resultado.txt", "a") as arquivo:
+        arquivo.write("Questão 5:\n")
+        arquivo.write(resultado + "\n\n")
+
+    print(resultado)
+
+main()

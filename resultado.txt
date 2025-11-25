@@ -1,0 +1,44 @@
+Questão 4:
+Conversão realizada: 10.0
+
+Questao 4:
+Conversão realizada: 2.0
+
+Questao 4:
+Erro: o texto nao pode ser convertido para numero.
+
+Questao 4:
+Erro: o texto nao pode ser convertido para numero
+
+Questão 4:
+Texto digitado: ola joao tudo bem 
+Erro: o texto digitado não é um número.
+
+Questão 4:
+Texto digitado: 4
+Conversão feita com sucesso: 4.0
+
+Questão 5:
+Resultado: 0.01
+
+Questão 5:
+Erro: valor inválido (ValueError).
+
+Questão 5:
+Resultado: 1.0
+
+Questão 5:
+Erro: valor inválido (ValueError).
+
+Questão 6:
+Resultado: 10.0
+
+Questão 6:
+Ocorreu um erro: could not convert string to float: '1,1'
+
+Questão 5:
+Erro: valor inválido (ValueError).
+
+Questao 4:
+Erro: o texto nao pode ser convertido para numero
+
