@@ -1,0 +1,2 @@
+Nome: & C:/Users/W10/AppData/Local/Programs/Python/Python313/python.exe c:/Users/W10/Documents/programaçao/-programac-o-comite/P.O.O/desconto.py
+Preço: 10.0
